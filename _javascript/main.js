@@ -53,5 +53,5 @@ document.addEventListener('DOMContentLoaded', () => {
       $form.hide().siblings('.notification').show();
     });
   });
-  
+
 });

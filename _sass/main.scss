@@ -13,9 +13,9 @@
 
 $blue: #007491;
 
- $section-padding: 0;
+$section-padding: 0;
 
- $footer-background-color : #333;
+$footer-background-color : #333;
 
 // 3. Set the derived variables
 
@@ -29,11 +29,6 @@ $blue: #007491;
 @import "../node_modules/bulma/sass/elements/form.sass";
 @import "../node_modules/bulma/sass/elements/title.sass";
 @import "../node_modules/bulma/sass/layout/_all.sass";
-
-html,
-body {
-  // height: 100%;
-}
 
 html {
   min-height: 100vh;
@@ -59,8 +54,8 @@ body {
   height: 600px;
 }
 
-body > #comment-wrap {
- display: none;
+body>#comment-wrap {
+  display: none;
 }
 
 #comment-form {
@@ -68,7 +63,7 @@ body > #comment-wrap {
 }
 
 #comment-wrap .notification {
- display: none;
+  display: none;
 }
 
 .footer {
