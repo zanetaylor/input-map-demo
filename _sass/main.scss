@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+
+$blue: #007491;
+
+ $section-padding: 0;
+
+ $footer-background-color : #333;
+
+// 3. Set the derived variables
+
+// 4. Import the rest of Bulma
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/grid/columns.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/form.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
+
+html,
+body {
+  // height: 100%;
+}
+
+html {
+  min-height: 100vh;
+  padding: 1rem;
+  background: #fff;
+}
+
+body {
+  min-height: 100%;
+  background: #333;
+}
+
+.hero {
+  background: #ccc;
+}
+
+.brand {
+  margin-top: -3rem;
+  height: 180px;
+}
+
+#map-wrap {
+  height: 600px;
+}
+
+body > #comment-wrap {
+ display: none;
+}
+
+#comment-form {
+  min-width: 280px;
+}
+
+#comment-wrap .notification {
+ display: none;
+}
+
+.footer {
+  padding: 2rem 1.5rem 2rem;
+  color: #ccc;
+}
